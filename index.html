@@ -29,11 +29,6 @@
       margin-bottom: 12px;
     }
 
-    header h1 {
-      margin: 5px 0;
-    }
-
-    /* SEARCH BAR */
     .search-box {
       max-width: 400px;
       margin: 30px auto 10px;
@@ -46,7 +41,6 @@
       font-size: 16px;
       border-radius: 8px;
       border: 1px solid #ccc;
-      outline: none;
     }
 
     .container {
@@ -64,14 +58,9 @@
     .card {
       background: #fff;
       border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
       padding: 20px;
       text-align: center;
-      transition: transform 0.2s ease;
-    }
-
-    .card:hover {
-      transform: translateY(-5px);
     }
 
     .card img {
@@ -79,22 +68,12 @@
       height: 120px;
       border-radius: 50%;
       object-fit: cover;
-      margin-bottom: 15px;
-    }
-
-    .card h3 {
-      margin: 10px 0 5px;
     }
 
     .role {
       color: #2563eb;
       font-weight: bold;
-      margin-bottom: 10px;
-    }
-
-    .details {
-      font-size: 14px;
-      line-height: 1.5;
+      margin: 10px 0;
     }
 
     footer {
@@ -103,6 +82,16 @@
       background: #e5e7eb;
       margin-top: 40px;
       font-size: 14px;
+    }
+
+    .footer-link {
+      color: #2563eb;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .footer-link:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -233,8 +222,9 @@
   </div>
 
   <footer>
-    © 2025 Pawar Panthers | All Rights Reserved | Created by Sudhanshu Sakhala
-  </footer>
+  © 2025 Pawar Panthers | All Rights Reserved | Created by
+  <a href="contact.html" class="footer-link">Sudhanshu Sakhala</a>
+</footer>
 
   <!-- SEARCH SCRIPT -->
   <script>
